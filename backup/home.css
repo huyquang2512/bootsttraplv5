@@ -1,0 +1,218 @@
+.all{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.menuMain{
+    width: 15%;
+    min-height: 100vh;
+    background-color: #2a2f33;
+}
+.conten{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 85%;
+    min-height: 100vh;
+    background-color: #edeff0;
+}
+.header{
+    width: 100%;
+    height: 8vh;
+    background-color: #044863;
+}
+body{
+    background-color: #edeff0;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    margin-bottom: 0;
+}
+.search{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 10%;
+    min-height: 8vh;
+    float: left;
+    margin-left: 35%;
+}
+.icon{
+    width: 20%;
+    min-height: 8vh;
+    float: right;
+    
+}
+.col-2{
+    height: auto;
+}
+.menu {
+    z-index: 1;
+    position: fixed;
+    width: 15%;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    background-color: #2a2f33;
+  }
+.list-group{
+    margin-top: 22%;
+}
+a{
+    text-decoration: none; 
+    color: white;
+}
+li:hover{
+   background-color: #329ce5;
+}
+#color:focus {
+    background-color: #329ce5;
+  }
+hr{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+li{
+    height: 60px;
+}
+.list-group{
+    background-color: #2a2f33;
+}
+.containersss{ 
+    margin-left: 20%;
+    margin-top: 100px;
+    height: 50px;
+}
+.khung{
+    width: 95%;
+    height: auto;
+    float: right;
+    margin-top: 4vh;
+    margin-left: 2vh;
+    margin-right: 5vh;
+}
+.text{
+    position: absolute;
+    margin-bottom: 0px;
+    color: #fff;
+    bottom:10%;
+    font-size: 90%;
+}
+.tintuc{
+    margin-left: 18%;
+    width: 60%;
+    height: auto;
+    float: right;
+    margin-top: 80px;
+    margin-right: 22%;
+}
+.card{
+    float: left;
+}
+.right{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 40%;
+}
+#right{
+    margin: 5%;
+    max-width: 90%;
+}
+ 
+.conten-2{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.khungConten{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 5vh;
+    margin-top: 4%;
+}
+
+.textTabList{
+    width: 100%;
+    height: auto;
+}
+.khungNoiDung{
+    width: 75%;
+    margin-top: 4vh;
+    margin-left: 2vh;
+    min-height: 50vh;
+    float: left;
+    flex-wrap: wrap;
+}
+.listNoiDung{
+    width: 100%;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    min-height: 50vh;
+    float: left;
+}
+.khungTabRight{
+    width: 20%;
+    margin: 4vh;
+    float: right;
+    height: auto;
+}
+.tabRight{
+    width: 100%;
+    background-color: #ffffff;
+    height: auto;
+    margin-top: 3vh;
+}
+.card:hover{
+    box-shadow: 0 0 15px gray;
+}
+#right:hover{
+    box-shadow: 0 0 15px gray;
+    opacity: 0.4;
+}
+#image{
+    background-image: url('https://www.theverge.com/2018/4/24/17276030/avengers-infinity-war-review-marvel-iron-man');
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: cornflowerblue;
+    color: white;
+  }
+  .next {
+    background-color: cornflowerblue;
+    color: white;
+  }
+  #img{
+      position: absolute;
+     
+      top: 0;
+      right: 0;
+      max-width: 20%;
+  }
+  .relative{
+      position: relative;
+  }
+  #img2{
+    position: absolute;
+    top:40%; 
+      right: 0;  
+    max-width: 20%;
+}
+.te{
+    position: absolute;
+    margin-bottom: 0px;
+    color: #fff;
+    bottom:10%;
+    font-size: 90%;
+}
